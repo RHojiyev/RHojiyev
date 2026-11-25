@@ -1,0 +1,75 @@
+  C++
+static int count;
+access sipes fayllar public,private,protected
+
+belgilashlarimiz
+a+=b; -> a=a+b;
+a-=b; -> a=a-b;
+a*=b; -> a=a*b;
+
+mantiqiy
+==
+<=
+>=
+>
+<
+
+&&    and  konyunksiya 
+
+||    or  dizyunksiya 
+
+!      not   inkor
+
+funksiya ichidagi har qanday o'zgaruvchi lokal o'zgaruvchi
+
+funksiya va sinfdan tashqaridagi o'zgaruvchi global o'zgaruvchi hisoblanadi 
+
+akses spesfayllar 
+
+1) public
+
+2) private
+
+3) protected
+
+class tarkibidagi funksiyani classdan tasqarida yozish ichkarida faqat funksiya elon qilingan tanasi yo'q
+
+void className::funk(x){y=x;}
+int className::funk(x){ return x;}
+
+ClassName  *obj=ClassName("txt");
+obj->funk();
+delete obj;
+
+
+ClassName obj,obj2(13,"Hojiyev");
+obj.funk();
+obj2.funk();
+
+
+
+cout<<c<<endl; <==> cout<<c<<\n; 
+
+
+
+
+1) o'zgaruvchilar 
+2) kiritish chiqarish arifmetik    amallar
+3) operatorlar
+4) shart operatori va shart amali 
+5) switch operatori 
+6) break, continue operatori
+7) go to operatori
+8) massivlar(array) 1-2 o'lchovli
+9) fayllar bn ishlash 
+10) address  va ko'rsatkich
+11) mantiqiy amallar 
+12) for (sikl operatori)
+13) while( sikl operatori) 
+14) do while (sikl operatori )
+15 funksiyalar 
+
+
+encapsulation 
+abstraction 
+Polimorphism 
